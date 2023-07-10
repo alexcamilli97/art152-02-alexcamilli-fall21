@@ -1,0 +1,180 @@
+ body {
+background: black;}
+
+main {
+  width: 1500px;
+  height: 789px;
+  margin:  20px auto;
+  background-color: rgb(79, 64, 64);
+
+}
+
+
+h1 {
+font-family: 'Alfa Slab One';
+font-size: 5em;
+text-align: center;
+line-height: 1em;
+margin-top: 10px;
+color: white;
+}
+h2 {
+font-family: 'Kanit',sans-serif;
+font-size: 3em;
+color: white;
+}
+
+h3 {
+font-family: 'Kanit',sans-serif;
+color: white;
+}
+
+h4 {
+  font-family: 'Kanit',sans-serif;
+  font-size: 1.5em;
+  color: white;
+  margin: 6px;
+}
+
+p, figcaption{
+  font-family: Monda, sans-serif;
+  font-size: 15px;
+  margin: 10px auto;
+  color: white;
+}
+
+figure {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+/* ///// Classes ///// */
+.rule-nav{
+  /* border-top: 1px solid grey; */
+  border-bottom: 3px solid rgb(211, 172, 60);
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.galnav {
+padding-bottom: 0px;
+}
+
+
+.imgsizl {
+  margin-top: 90px;
+  float: left;
+  padding-right: 20px;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.rule-pindex {
+  padding: 0 0 20px;
+}
+
+.rule-sides {
+  border-right: 3px solid rgb( 211, 172, 60);
+  height: 550px;
+}
+
+.centertext {
+  text-align: center;
+}
+
+
+.marginright {
+  margin-left: 78px;
+}
+
+.paddingl {
+  padding-left: 28px;
+}
+
+.paddingll {
+  padding-left: 56px;
+}
+
+.biopad {
+  padding-top: 2px;
+}
+
+.marginb {
+  margin-bottom: 80px;
+}
+
+.widthp {
+  width: 680px;
+}
+
+.widthbio {
+  width: 250px;
+}
+
+.srcimage {
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+.warhol {
+  padding-bottom: 30px;
+}
+
+.gallery {
+  padding-top: 10px;
+}
+
+.biotxt {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+/* /////// NAV STYLES /////// */
+nav {
+  width: 950px;
+  margin: 20px auto;
+  text-align: center;
+  padding-right: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: auto;
+}
+
+nav li {
+  display: inline;
+  padding: 0px 5px 5px 10px;
+  font-family: 'Kanit';
+  font-size: 1em;
+  font-weight: 600;
+}
+
+nav a:link, nav a:visited{
+  color: black;
+  background-color: rgb(127,118,111);
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 4px 8px;
+  margin: 0;
+  font-size: 1em;
+  color: white;
+}
+
+nav a:hover {
+  background-color: rgb(234,47,41);
+}
+
+nav a.current {
+  background-color: rgb(234,47,41);
+  color: black;
+}
